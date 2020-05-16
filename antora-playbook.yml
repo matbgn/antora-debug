@@ -7,7 +7,7 @@ content:
   sources:
   - url: ./
     branches: master
-    start_path: docs
+    start_path: antora-docs
 ui:
   bundle:
     url: "node_modules/@djencks/lunr-ui/build/lunr-ui-bundle.zip"
@@ -15,4 +15,4 @@ ui:
 extensions:
   - path: "@djencks/antora-lunr"
 output:
-  dir: ./public
+  dir: ./docs
