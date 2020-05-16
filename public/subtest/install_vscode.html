@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Install and configure VSCode :: Test</title>
+    <link rel="canonical" href="https://matbgn.github.io/antora-debug/subtest/install_vscode.html">
+    <meta name="generator" content="Antora 2.3.1">
+    <link rel="stylesheet" href="../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://matbgn.github.io/antora-debug">Test</a>
+        <div class="navbar-item">
+            <input id="search-input" type="text" placeholder="Search docs">
+        </div>
+        <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="subtest" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">Subtest</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Installation</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="index.html">Basic example</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="antora_installation.html">Antora installation</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Starting with ES6</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="install_vscode.html">Install and configure VSCode</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="node_introduction.html">Introduction to Node</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="debug_code_with_vscode.html">Debugging with VSCode</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Subtest</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Subtest</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Subtest</a></li>
+    <li>Starting with ES6</li>
+    <li><a href="install_vscode.html">Install and configure VSCode</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///D:/MBO/Dev/antora-debug/docs/modules/ROOT/pages/install_vscode.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<article class="doc">
+<h1 class="page">Install and configure VSCode</h1>
+<div class="paragraph">
+<p>Download Visual Studio Code on <a href="https://code.visualstudio.com/download">official website</a> It is free and built on open source. Integrated Git, debugging and extensions.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Most of all it is cross platform (Linux, Windows, Mac)
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Here are some interesting Visual Studio Code extension to install:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>aaron-bond.better-comments</p>
+</li>
+<li>
+<p>ban.spellright</p>
+</li>
+<li>
+<p>dbaeumer.vscode-eslint</p>
+</li>
+<li>
+<p>erikphansen.vscode-toggle-column-selection</p>
+</li>
+<li>
+<p>formulahendry.auto-close-tag</p>
+</li>
+<li>
+<p>hex-ci.stylelint-plus</p>
+</li>
+<li>
+<p>HookyQR.beautify</p>
+</li>
+<li>
+<p>joaompinto.asciidoctor-vscode</p>
+</li>
+<li>
+<p>mhutchie.git-graph</p>
+</li>
+<li>
+<p>naumovs.color-highlight</p>
+</li>
+<li>
+<p>ritwickdey.LiveServer</p>
+</li>
+<li>
+<p>ryu1kn.partial-diff</p>
+</li>
+<li>
+<p>vincaslt.highlight-matching-tag</p>
+</li>
+<li>
+<p>VisualStudioExptTeam.vscodeintellicode</p>
+</li>
+<li>
+<p>vscode-icons-team.vscode-icons</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>With the following command you can install each of this extension:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-shell hljs" data-lang="shell">$ code --install-extension</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With this one you can list your installed extensions:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-shell hljs" data-lang="shell">$ code --install-extensions</code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Pay attention to the final <code>S</code>
+</td>
+</tr>
+</table>
+</div>
+</article>
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script type="text/javascript">
+  window.antora = window.antora || {}
+  window.antora.basePath = '..'
+  window.antora.pagePath = '/subtest/install_vscode.html'
+</script>
+<script src="../_/js/site.js"></script>
+<script src="../_/js/vendor/lunr.js"></script>
+<script src="../_/js/vendor/search.js"></script>
+<script async src="../search-index.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
