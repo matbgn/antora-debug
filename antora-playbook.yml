@@ -1,6 +1,6 @@
 site:
   title: Test
-  url: https://matbgn.github.io/antora-debug/
+  url: https://matbgn.gitlab.io/antora/
   start_page: subtest::index.adoc
 content:
   # edit_url: '{web_url}/blob/{refname}/{path}'
