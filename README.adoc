@@ -1,0 +1,16 @@
+= Antora debug project
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+Debug project for antora compilation
+
+NOTE: Actual tests are upon lunr (quick search box) integrated with antora.
+
+Based on work from @Mogztter on https://github.com/Mogztter/antora-site-generator-lunr
+
+On the automated pipeline from @djencks on https://gitlab.com/djencks/antora-extension-examples/-/tree/master/antora-lunr

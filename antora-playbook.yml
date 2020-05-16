@@ -1,0 +1,18 @@
+site:
+  title: Test
+  url: https://matbgn.github.io/antora-debug/
+  start_page: subtest::index.adoc
+content:
+  # edit_url: '{web_url}/blob/{refname}/{path}'
+  sources:
+  - url: ./
+    branches: master
+    start_path: docs
+ui:
+  bundle:
+    url: "node_modules/@djencks/lunr-ui/build/lunr-ui-bundle.zip"
+    snapshot: true
+extensions:
+  - path: "@djencks/antora-lunr"
+output:
+  dir: ./public

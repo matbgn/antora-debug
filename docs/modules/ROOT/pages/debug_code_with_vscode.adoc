@@ -1,0 +1,15 @@
+= Ultra quick guide to debug with VSCode
+:icons: font
+:imagesdir: ../assets/images/
+
+NOTE: This is a very quick intro to debugging with VSCode. For a more in-depth explanation please go on the https://code.visualstudio.com/docs/editor/debugging[official debugging webpage of VSCode editor].
+
+image:debugger_vscode.png[VSCode debugger logo,50] For a quick start with Visual Studio Code Debugger, simply click on the corresponding icon on the left tool bar.
+
+Then put some breakpoints on relevant positions of your code like below:
+
+image::bpts-in-overview.png[Breakpoints overview]
+
+Then simply run the debugger by clicking on `Run and Debug`
+
+image::debug-start.png[Start the debugger]

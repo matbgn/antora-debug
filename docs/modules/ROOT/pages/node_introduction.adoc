@@ -1,0 +1,36 @@
+= Introduction to Node
+:source-highlighter: prettify
+
+In order to run your program locally like `Hello world`, proceed as following:
+
+. Create a new file with extension .js like `hello.js`
+. Put the following code in it:
+
+[source,javascript]
+----
+printHello("hello") // Invoke the printHello function below
+
+function printHello(word) {
+  setTimeout(function () {
+    console.log('World!');
+  }, 2000);
+  console.log('Hello');
+}
+----
+
+[start=3]
+. Then type in your terminal the following command:
+
+[source, shell]
+----
+$ node hello.js
+----
+
+[start=4]
+. You should see:
+
+[source, shell]
+----
+Hello
+World! // 2 sec after
+----

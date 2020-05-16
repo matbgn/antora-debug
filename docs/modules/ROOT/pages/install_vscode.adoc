@@ -1,0 +1,41 @@
+= Install and configure VSCode
+:icons: font
+
+Download Visual Studio Code on https://code.visualstudio.com/download[official website] It is free and built on open source. Integrated Git, debugging and extensions. 
+
+TIP: Most of all it is cross platform (Linux, Windows, Mac)
+
+
+Here are some interesting Visual Studio Code extension to install:
+
+* aaron-bond.better-comments
+* ban.spellright
+* dbaeumer.vscode-eslint
+* erikphansen.vscode-toggle-column-selection
+* formulahendry.auto-close-tag
+* hex-ci.stylelint-plus
+* HookyQR.beautify
+* joaompinto.asciidoctor-vscode
+* mhutchie.git-graph
+* naumovs.color-highlight
+* ritwickdey.LiveServer
+* ryu1kn.partial-diff
+* vincaslt.highlight-matching-tag
+* VisualStudioExptTeam.vscodeintellicode
+* vscode-icons-team.vscode-icons
+
+With the following command you can install each of this extension:
+
+[source,shell]
+----
+$ code --install-extension
+----
+
+With this one you can list your installed extensions:
+
+[source,shell]
+----
+$ code --install-extensions
+----
+
+IMPORTANT: Pay attention to the final `S`

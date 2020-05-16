@@ -1,0 +1,8 @@
+* Installation
+** xref:index.adoc[Basic example]
+** xref:antora_installation.adoc[Antora installation]
+
+* Starting with ES6
+** xref:install_vscode.adoc[Install and configure VSCode]
+** xref:node_introduction.adoc[Introduction to Node]
+** xref:debug_code_with_vscode.adoc[Debugging with VSCode]

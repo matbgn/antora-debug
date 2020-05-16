@@ -1,0 +1,21 @@
+= Antora installation
+:icons: font
+
+. Install Node from https://nodejs.org/en/download/[Node’s official downloads page], at the end you might have something like this:
+[source, shell]
+$ node --version
+v12.16.2
+. Then install those package:
+[source, shell]
+$ npm i -g @antora/cli @antora/site-generator-default
+. You should have:
+[source, shell]
+$ antora -v
+2.3.x
+
+TIP: That's it! You're ready to compile this project with the command below.
+
+[source, shell]
+$ npm i
+$ npm run build
+
