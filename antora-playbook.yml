@@ -3,16 +3,22 @@ site:
   url: https://matbgn.gitlab.io/antora/
   start_page: subtest::index.adoc
 content:
-  # edit_url: '{web_url}/blob/{refname}/{path}'
+  edit_url: '{web_url}/blob/{refname}/{path}'
   sources:
   - url: ./
     branches: master
     start_path: antora-docs
 ui:
   bundle:
-    url: "node_modules/@djencks/lunr-ui/build/lunr-ui-bundle.zip"
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-extensions:
-  - path: "@djencks/antora-lunr"
+  supplemental_files: ./supplemental_ui
+# ui:
+#   bundle:
+#     url: "node_modules/@djencks/lunr-ui/build/lunr-ui-bundle.zip"
+#     snapshot: true
+#   supplemental_files: ./supplemental_ui
+# extensions:
+#   - path: "@djencks/antora-lunr"
 output:
   dir: ./docs
